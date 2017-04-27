@@ -1,13 +1,14 @@
 package com.cherkasov;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Cache {
     private String test = "test";
 
     static void test(List<Integer> list){
-        System.out.println(list.toArray().toString());
+        System.out.println(list.toArray());
 
         list.forEach(System.out::println);
     }
@@ -28,7 +29,7 @@ public class Cache {
     }
 
     public static void main(String[] args) {
-//        Test.test();
+    Test.test(Collections.emptyList());
     }
 }
 class Test extends Cache{

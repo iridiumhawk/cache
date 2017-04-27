@@ -24,7 +24,7 @@ public class Cache {
 
     @Override
     public int hashCode() {
-        return test != null ? test.hashCode() : 0;
+        return  0;
     }
 
     public static void main(String[] args) {

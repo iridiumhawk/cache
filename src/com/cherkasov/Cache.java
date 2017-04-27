@@ -8,7 +8,6 @@ public class Cache {
     private String test = "test";
 
     static void test(List<Integer> list){
-        System.out.println(list.toArray());
 
         list.forEach(System.out::println);
     }
